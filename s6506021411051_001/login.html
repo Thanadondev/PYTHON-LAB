@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มตัวอย่าง</title>
+</head>
+<body>
+    <form action="py_get.py" method="get">
+        <!-- Textfield -->
+        <label for="textfield">User:</label>
+        <input type="text" id="textfield" name="textfield" required>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="textarea">Details:</label>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" required></textarea>
+        <br><br>
+ 
+        <!-- Radio Buttons -->
+        <label>อาชีพ:</label><br>
+        <input type="radio" id="radio1" name="radio" value="Programer">
+        <label for="radio1">Programer</label><br>
+
+        <input type="radio" id="radio2" name="radio" value="Doctors">
+        <label for="radio2">Doctors</label><br>
+
+        <input type="radio" id="radio3" name="radio" value="Business man">
+        <label for="radio3">Business man</label><br><br>
+
+        <label for="select">salary:</label>
+        <select id="select" name="select" required>
+            <option value="20000+">20000+</option>
+            <option value="30000+">30000+</option>
+            <option value="40000+">40000+</option>
+        </select>
+        <br><br>
+
+        <label>Hobbies 1 choice:</label><br>
+        <input type="checkbox" id="checkbox1" name="checkbox[]" value="Foot ball">
+        <label for="checkbox1">Foot ball</label><br>
+
+        <input type="checkbox" id="checkbox2" name="checkbox[]" value="basketball">
+        <label for="checkbox2">basketball</label><br>
+
+        <input type="checkbox" id="checkbox3" name="checkbox[]" value="read book">
+        <label for="checkbox3">read book</label><br>
+
+        <input type="checkbox" id="checkbox4" name="checkbox[]" value="learning">
+        <label for="checkbox4">learning</label><br>
+
+        <input type="checkbox" id="checkbox5" name="checkbox[]" value="sleeping">
+        <label for="checkbox5">sleeping</label><br><br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
